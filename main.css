@@ -1,0 +1,48 @@
+/* common.css */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0px;
+	background: #fafafa;
+	font: 17px/1.7 "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+    color: #555;
+}
+
+.clearfix:before, .clearfix:after {
+	content: " ";
+	display: table;
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.clearfix {
+	zoom: 1;
+}
+
+/* custom.css */
+
+.header {	
+	height: 70px;
+	background: #36f;
+}
+
+.container {
+	margin: 0 auto;
+	width: 800px;
+	box-shadow: 0 3px 5px #ddd;
+	padding: 30px;
+}
+
+/* blog post */
+
+.post-title {
+	font-weight: normal;
+	color: #eb3170;
+	text-align: center;
+	margin: 10px 0;
+}
